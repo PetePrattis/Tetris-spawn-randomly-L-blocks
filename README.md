@@ -13,6 +13,6 @@ and is one of a few such simple python programms neccessary to pass the class_
 > #### About this project
 >
 > - The comments to make the code understandable, are within the .py archive
-> - This program runs for Python version 3.7
+> - This program runs for Python version 3.6+
 > - This repository was created to show the variety of my work I did and experience I gained as a student
 >
