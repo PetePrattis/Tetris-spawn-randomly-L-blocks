@@ -1,14 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf8 -*-
 
-#Author Παναγιώτης Πράττης-Panagiotis Prattis Π15120
-#This is the 9th exercise from the python exercise series for the class "ΕΙΣΑΓΩΓΗ ΣΤΗΝ ΕΠΙΣΤΗΜΗ ΤΩΝ ΥΠΟΛΟΓΙΣΤΩΝ - COMPUTER SCIENCE INTRODUCTION", University of Pireus
-#Project's demands:
-# Write code that keeps in memory a table of 10 columns and 20 rows and that
-# plays "Tetris" only by adding L randomly in the table. L is an element with a height
-# of 3 blocks and 2 width.
-# The program ends when the L surpass in height 20 blocks, then it prints how many L
-# managed to enter. The program's only output is the number of the L, not the game.
+#Author Παναγιώτης Πράττης/Panagiotis Prattis
+
+'''
+This is a program which keeps in memory a table of 10 columns and 20 rows and that plays "Tetris" 
+only by adding L randomly in the table. L is an element with a height of 3 blocks and width of 2 blocks. 
+The program ends when the L surpasses in height 20 blocks, then it prints how many L blocks managed to enter.
+'''
 
 import random
 
@@ -65,7 +64,7 @@ while not gameover:
         if(goNext):
             break;
 
-#Not necessary according to the project's demands
+#Print steps
 for i in range(0, nRows):
     print (table[i])
 #All steps till the game over
@@ -73,4 +72,6 @@ for i in range(0, nRows):
       for row in table]))
     print('------------------------------------')
 
+#Print how many L shaped blocks managed to enter 
 print (lCount, " L's were spawned.")
+
